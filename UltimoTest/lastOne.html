@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #btn {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #btnSalir {
+            background-color: #dc3545;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        #box {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <h1>Bienvenidas/os a Test Center!</h1>
+    <h2>Tu programa de optimizacion!</h2>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+   
+
+    <div class="container">
+        <form id="sigIn" class="w-50 d-flex flex-column mt-3">
+                <<label for="">Nombre</label>
+                <input id="nombre" class="form-control mt-2" type="text" required />
+                <label for="">Telefono</label>
+                <input id="telefono" class="form-control mt-2" type="number" required />
+                <label for="mail">Correo electronico</label>
+                <input id="mail" class="form-control mt-2" type="text" required />
+                <br>
+                <br>
+                <input id="btn" type="submit" class="btn btn-primary mt-2" value="Agregar"/>
+                <br>
+                <br>
+                <!-- <input id="btnSalir" class="btn-primary mt-2" type="submit" value="Salir"> -->
+                
+        </form>
+
+        <div id="menu" style="display: none;">
+            <h1>Menú</h1>
+            <ul>
+                <li><a id="auto" href="#">Optimizacion Auto</a></li>
+                <li><a id="manual" href="#">Soporte</a></li>
+                <li><a id="contacto" href="#">Datos</a></li>
+            </ul>
+    
+            <div id="contenido">
+                <!-- Contenido de las opciones se mostrará aquí -->
+            </div>
+        
+        <br><br><br><br><br><br><br>
+        <div id="box"></div>
+        <br><br></b></b>
+        <div>
+            <button id="btnSalir">Salir</button>
+        </div>
+        <!-- <script src="UltimoSegundo.js"></script> -->
+   <script src="ultimoTest.js"></script>    
+</body>
+</html>
